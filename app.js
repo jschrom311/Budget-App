@@ -72,6 +72,15 @@ var UIController = (function() {
                 value : document.querySelector(DOMstrings.inputValue).value
             };
         },
+
+        addListItem: function(obj, type) {
+
+            //create html string w/placeholder text
+            //replace placeholder text w/data
+            //insert html into DOM
+
+        },
+
         getDOMstrings: function() {
             return DOMstrings;
         }
